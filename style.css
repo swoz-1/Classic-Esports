@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section.home-page {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+div.a {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(0, 71, 0);
+}
+
+nav.aa {
+    width: 25%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav.aaa {
+    width: 70%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+a.about-us {
+    text-decoration: none;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 25px;
+}
+
+div.hr {
+    background-color: black;
+    width: 100%;
+    height: 1px;
+}
+
+div.hm-pg {
+    background-color: rgb(0, 71, 0);
+    width: 100%;
+    height: 482px;
+}
+
+div.lef {
+    width: 50%;
+    height: 90%;
+    float: left;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+div.righ {
+    float: right;
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.maisie {
+    width: 400px;
+    height: 400px;
+}
+
+h1.baslik {
+    font-size: 50px;
+    color: crimson;
+}
+
+h1.basli {
+    font-size: 35px;
+    color: gray;
+    padding-left: 135px;
+    padding-top: 10px;
+}
+
+h1.basl {
+    font-size: 30px;
+    color: aquamarine;
+    padding-left: 132px;
+    padding-top: 10px;
+}
+
+p.main {
+    padding-top: 10px;
+    font-family: "Marko One", sans-serif;
+    font-size: 25px;
+}
+
+p.las {
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(93, 186, 0);
+}
+
+div.las1 {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a.esports-team{
+    text-decoration: none;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 25px;
+}
+a.platforms{
+    text-decoration: none;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 25px;
+}
